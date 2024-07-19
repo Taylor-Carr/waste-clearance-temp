@@ -43,7 +43,7 @@ body, html {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 10px 40px;
+    padding: 13px 40px;
     box-sizing: border-box;
 
 }
@@ -64,23 +64,25 @@ body, html {
 }
 
 .header .logo-img {
-    height: 55px;
+    height: 65px;
 }
 
 .nav-links {
     font-family: 'Lato';
-    font-weight: 500;
+    font-weight: 600;
     display: flex;
     gap: 40px;
     border-radius: 20px;
     padding: 10px 25px;
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    
 }
 
 .nav-links a {
     color: #333;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .nav-links a:hover {
